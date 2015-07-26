@@ -1,0 +1,11 @@
+<suite name="Gurukal">
+	<test name="basictest">
+		<parameter name="browser" value="firefox"/>
+		<parameter name="sUsername" value="admin"/>
+		<parameter name="sPassword" value="admin"/>
+		<parameter name="rowNumber" value="1"/>
+		<classes>
+			<class name="test.EndtoEndTestcase"/>
+		</classes>
+	</test>
+</suite>

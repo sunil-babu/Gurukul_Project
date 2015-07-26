@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Gurukal]">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="sUsername" value="admin"/>
+  <parameter name="rowNumber" value="1"/>
+  <parameter name="sPassword" value="admin"/>
+  <test name="basictest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="sUsername" value="admin"/>
+    <parameter name="rowNumber" value="1"/>
+    <parameter name="sPassword" value="admin"/>
+    <classes>
+      <class name="test.EndtoEndTestcase">
+        <methods>
+          <include name="verify_End_to_End_staff" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.EndtoEndTestcase -->
+    </classes>
+  </test> <!-- basictest(failed) -->
+</suite> <!-- Failed suite [Gurukal] -->
